@@ -101,6 +101,43 @@ body {
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
+.projet1 {
+    width: 50%;
+    margin-left: 5rem;
+    margin-top: 8rem;
+    padding: 3rem;
+    background-color: transparent;
+    border: 2px solid gold;
+}
+
+.projet2 {
+    width: 50%;
+    margin-left: 50rem;
+    margin-top: 5rem;
+    padding: 3rem;
+    background-color: transparent;
+    border: 2px solid gold;
+}
+
+.projet-title {
+    width: 75%;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.projet-title h1 {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.projet-title h1:hover {
+    color: orange;
+}
+
+.projet-text p {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
 footer {
     width: 100%;
     background-color: transparent;
