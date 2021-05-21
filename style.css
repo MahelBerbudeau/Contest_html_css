@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans+Narrow&family=Pattaya&display=swap');
 
-/*font-family: 'PT Sans Narrow', sans-serif;*/
-
 /*Reset CSS*/
 * {
     margin: 0px;
@@ -75,6 +73,32 @@ body {
 .navbar-links a:hover {
     color: orange;
     border-bottom: 2px solid gold;
+}
+
+.prez {
+    width: 60%;
+    margin: 10rem auto;
+    padding: 3rem;
+    background-color: transparent;
+    border: 2px solid gold;
+}
+
+.prez-title {
+    width: 75%;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.prez-title h1 {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.prez-title h1:hover {
+    color: orange;
+}
+
+.prez-text p {
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 footer {
