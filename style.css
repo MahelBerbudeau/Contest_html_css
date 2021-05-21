@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans+Narrow&family=Pattaya&display=swap');
+
+/*font-family: 'PT Sans Narrow', sans-serif;*/
+
+/*Reset CSS*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*style of body*/
+body {
+	background: no-repeat linear-gradient(-45deg, #ffffff, #ffffff, #000000, #000000);
+	background-size: 500% 100000%;
+	animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/*style of navbar*/
+.navbar {
+    width: 100%;
+    margin: 0 auto;
+    background-color: transparent;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar-title {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.navbar-title h2:hover {
+    color: orange;
+}
+
+/*Style of navbar-links content*/
+.navbar-links ul {
+    list-style-type: none;
+}
+
+.navbar-links li {
+    display : inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+.navbar-links ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.navbar-links a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 1rem 0px;
+    font-family: 'Lobster', cursive;
+}
+
+.navbar-links a:hover {
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+
+footer {
+    width: 100%;
+    background-color: transparent;
+    position:absolute;
+    bottom:0;
+    padding-top:50px;
+    height:50px;
+}
+
+footer p {
+    display: block;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 1rem 3rem;
+    font-family: 'Lobster', cursive;
+}
+
+footer p:hover {
+    color: orange;
+}
+
